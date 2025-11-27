@@ -1,0 +1,105 @@
+/*!
+Theme Name: Crumbella Wordpress Theme
+Theme URI:  https://themixly.com/
+Author:     Themixly
+Author URI: https://themixly.com/
+Description: Crumbella is a premium Wordpress theme designed for cookie shops, artisan bakeries, dessert cafés, and sweet confectionery brands.
+Version:    1.0.0
+Text Domain: themixly
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: crumbella
+Tags: Artisan Baker Portfolio, Bakery Landing Page, Bakery Wordpress Theme, Cookie Shop Website Theme, Dessert Café Theme, Food Business Wordpress Theme, Wordpress Food Theme, Responsive Bakery Website, Sweet Shop Wordpress Theme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+crumbella is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* Sections
+	 ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+	margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+	display: block;
+}
+.sitelogo h2 a {color: #000 !important;font-family: Pacifico, cursive !important;font-size: 34px !important;font-weight: 400 !important;}
+.elementor-location-header.activ {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.14) !important;
+  background: #fff !important;
+  position: relative;
+  z-index: 9999; /* ensures it's above other content */
+  transition: all 0.3s ease;
+}
+
+
+h2 > span {font-family:Pacifico,cursive;}
+.menubox .elementor-image-box-img img {margin-top:-50%;}
+.customdate span {font-family:Poppins;}
+
+.scroll-offset{scroll-margin-top:100px}
